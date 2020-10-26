@@ -10,3 +10,5 @@ to start backend server:
 D:\Angular\medical-billing\src>json-server --watch db.json
 
 the above server needs to be up and running in order to make API call
+
+if needed, clear db.json file under the above path t start afresh
