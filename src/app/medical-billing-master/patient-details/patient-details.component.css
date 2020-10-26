@@ -1,0 +1,74 @@
+
+
+p-dropdown > div {
+    border: 1px solid black !important;
+    width: 4rem;
+  }
+
+  p-dropdown.ng-invalid.ng-touched.ui-inputwrapper-focus:not(form) > div {
+    box-shadow: 0 0 0 0.05em #F40000;
+    border: 1px solid #D40000;
+    border-radius: 2px;
+  }
+
+  p-dropdown.ng-invalid.ng-untouched.ui-inputwrapper-focus:not(form) > div {
+    box-shadow: 0 0 0 0.05em #F40000;
+    border: 1px solid #D40000;
+    border-radius: 2px;
+  }
+
+  .header
+  {
+    color: skyblue;
+  }
+
+  hr.border {
+    border: 0.5px solid skyblue !important;
+  }
+
+  .widthControl
+  {
+    border: 1px solid black !important;
+    width: 3rem !important;
+  }
+
+  .nameAlignment{
+        /* top: 0em; */
+        padding-top: 0em !important;
+        position: relative;
+  }
+
+  .radioClass .ui-radiobutton-box
+  {
+    border:1px solid black;
+  }
+
+  .addressAlignment{
+    min-width: 715px !important;
+  }
+
+  .cityAlignment
+  {
+    min-width: 339px !important;
+  }
+
+  .phonenumber
+  {
+    min-width: 223px !important;
+  }
+
+  .calendarWidth
+  {
+    width:90% !important;
+  }
+
+  input.ng-invalid.ng-touched.ui-inputwrapper-focus {
+    box-shadow: 0 0 0 0.05em #F40000 !important;
+    border: 1px solid #D40000 !important;
+    border-radius: 2px !important;
+  }
+
+  .dialog
+  {
+    background-color: #424242b2 !important;
+  }

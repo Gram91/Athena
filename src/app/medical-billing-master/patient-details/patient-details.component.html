@@ -1,0 +1,130 @@
+<p [ngClass]="'header'"> Patient Details </p>
+
+<hr class="border"/>
+ 
+ 
+<div class="container">
+  <!-- <form [formGroup] = "patientDetailsForm"> -->
+    <div class="row">
+      <!-- <div class="col-md-2 col-lg-2"> </div> -->
+      <div class="col-md-2 col-lg-2"><label>Patient Name</label> <p-dropdown  styleClass="widthControl" [options]="salutations" [(ngModel)] = "selectedCode" (onChange) = "validateSalutationData($event)"> </p-dropdown></div>
+      <div class="col-md-3 col-lg-3"> <input type="text" ngModel [(ngModel)]="name" [required]="true"  />
+        
+        
+      </div>
+
+<!-- </form> -->
+<div class = "col-md-1 col-lg-1">
+  <label>Gender</label>  
+</div>
+        <div class = "col-md-2 col-lg-2">
+          <p-radioButton class = "radioClass" required name="groupname" label ="Male" value="male" [(ngModel)]="gender"></p-radioButton>
+<p-radioButton class = "radioClass"  name="groupname" value="female" label ="Female" [(ngModel)]="gender"></p-radioButton>
+        </div>
+</div>
+<br/>
+<div class ="row">
+
+  <div class="col-md-1 col-lg-1">
+    <label>DOB</label>
+  </div>
+  
+    <div class="col-md-2 col-lg-2">
+      <p-calendar (onSelect) = "dateSelected($event)" [(ngModel)]="dob" [showIcon]="true" [styleClass]="calendarWidth"></p-calendar>
+  </div>
+  <div class="col-md-2 col-lg-2"></div>
+  <div class="col-md-3 col-lg-3">
+    <label>Age</label>
+    <input type="text" pInputText [(ngModel)]="ageType" styleClass="nameAlignment"/>
+    
+</div>
+<div class = "col-md-1 col-lg-1">
+  <p-dropdown  styleClass="widthControl" optionLabel = "value" [options]="years" dataKey="value" [(ngModel)] = "selectedAge" (onChange)=yearsChanged($event)> </p-dropdown>
+</div>
+  
+</div>
+<br/>
+<div class ="row">
+
+  <div class="col-md-1 col-lg-1">
+    <label>Appointment Date</label>
+  </div>
+  
+    <div class="col-md-4 col-lg-4">
+      <p-calendar [(ngModel)]="appdate" [showIcon]="true" inputstyleClass="calendarWidth"></p-calendar>
+  </div>
+  <!-- <div class="col-md-2 col-lg-2"></div> -->
+  <div class="col-md-4 col-lg-4">
+    <label>Phone Number</label>
+    <input type="text" pInputText [(ngModel)]="phoneNumber" class="phonenumber"/>
+    
+</div>
+  
+</div>
+<br/>
+<div class ="row">
+
+  <div class="col-md-1 col-lg-1">
+    <label>Address</label>
+  </div>
+  
+    <div class="col-md-7 col-lg-7">
+      <input type="text" pInputText [(ngModel)]="addressLine1" class="addressAlignment"/>
+  </div>
+    
+    
+</div>
+<br/>
+<div class ="row">
+
+  <div class="col-md-1 col-lg-1">
+    
+  </div>
+  
+    <div class="col-md-7 col-lg-7">
+      <input type="text" pInputText [(ngModel)]="addressLine2" class="addressAlignment"/>
+  </div>
+    
+    
+</div>
+<br/>
+<div class ="row">
+
+  <div class="col-md-1 col-lg-1">
+    
+  </div>
+  
+    <div class="col-md-3 col-lg-3">
+      <input type="text" pInputText [(ngModel)]="city" class="cityAlignment"/>
+  </div>
+  <div class="col-md-1 col-lg-1">
+</div>
+  <div class="col-md-3 col-lg-3">
+    <input type="text" pInputText [(ngModel)]="state" class="cityAlignment"/>
+</div>
+    
+    
+</div>
+<br/>
+<div class ="row">
+
+  <div class="col-md-1 col-lg-1">
+    
+  </div>
+  
+    <div class="col-md-3 col-lg-3">
+      <input type="text" pInputText [(ngModel)]="pin" class="cityAlignment"/>
+  </div>
+  <div class="col-md-1 col-lg-1">
+</div>
+  <div class="col-md-3 col-lg-3">
+    <p-dropdown  styleClass="cityAlignment" [options]="countryCodes" [(ngModel)] = "selectedCountry"> </p-dropdown>
+</div>
+    
+    
+</div>
+
+
+
+  
+</div>

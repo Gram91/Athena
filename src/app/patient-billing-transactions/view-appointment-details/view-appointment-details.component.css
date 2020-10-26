@@ -1,0 +1,51 @@
+.header
+  {
+    color: skyblue;
+  }
+  hr.border {
+    border: 0.5px solid skyblue !important;
+  }
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 10px; 
+    min-width: 40px; 
+} 
+  
+.input-field { 
+    width: 100%; 
+     
+    text-align: center; 
+    border-radius: 25px !important;
+} 
+
+.calendarWidth
+{
+    width:50% !important;
+}
+
+p-dropdown > div {
+    border: 1px solid black !important;
+    width: 4rem;
+  }
+
+  
+
+  .widthControl
+  {
+    border: 1px solid black !important;
+    width: 3rem !important;
+  }
+
+  .anchor{
+    
+    color:skyblue;
+    text-decoration: underline;
+  }

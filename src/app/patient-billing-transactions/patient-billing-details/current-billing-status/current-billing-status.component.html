@@ -1,0 +1,113 @@
+<div class="row">
+  <div class="col-6"><table class="table table-bordered table-responsive">
+  
+  <tbody>
+    <tr>
+      <td  style="width: 16.66% !important;">Patient Name</td>
+      <td  style="width: 16.66%">{{billingStatus.name}}</td>
+    </tr>
+    <tr>
+      <td>Age/Gender</td>
+      <td>{{billingStatus.age.value}}</td>
+    </tr>
+    <tr>
+      <td>Total Amount</td>
+      <td>{{billingStatus.billingData.scanAmount}}</td>
+    </tr>
+    <tr>
+      <td>Discount</td>
+      <td>{{billingStatus.billingData.discount}}</td>
+    </tr>
+    <tr>
+      <td>Paid Amount</td>
+      <td>{{billingStatus.billingData.discount}}</td>
+    </tr>
+    <tr>
+      <td>Balance</td>
+      <td>{{billingStatus.billingData.totalAmount}}</td>
+    </tr>
+    <!-- <tr>
+      <td>PatientName</td>
+      <td>billingStatus.name</td>
+    </tr> -->
+  </tbody>
+</table>
+
+<br/>
+<div class="row">
+<div class="col-md-8 col-lg-8">
+  <label>Payable Amount</label>
+  
+  <input type="number" pInputText [(ngModel)]="amountPayable" class="discount"/>
+  
+</div>
+</div>
+<br/>
+  
+    <div class="row">
+      <div class="col-md-8 col-lg-8">
+        <div class="row">
+          <div class="col-3"><label>Payment Mode</label></div>
+          <div class="col-3"> <p-dropdown  styleClass="widthControl" [options]="paymentMode" [(ngModel)] = "selectedMode"> </p-dropdown></div>
+          <div class="col-6"></div>
+        </div>
+        
+        
+       
+        
+      </div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-md-8 col-lg-8">
+                  
+          <input type="text" pInputText [(ngModel)]="cardData" class="inputAlignment"/>
+          
+        </div>
+        </div>
+        <br/>
+      <div class="row">
+        <div class="col-md-8 col-lg-8">
+          
+          <input type="text" pInputText [(ngModel)]="name" class="inputAlignment"/>
+          
+        </div>
+        </div>
+        <br/>
+        <div class="row">
+          <div class="col-2">
+            <label>Expiry</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-lg-8">
+            <div class="row">
+              
+              
+              <div class="col-3">
+                <p-calendar [(ngModel)]="expiryDate" [showIcon]="true" inputstyleClass="calendarWidth"></p-calendar>
+              </div>
+              <div class="col-3">
+          
+                <input type="password" pPassword [(ngModel)]="cvv" class="cvvlength" [feedback] = "false" />
+                
+              </div>
+              
+            </div>
+            
+          </div>
+          </div>
+<br/>
+          <div class="row">
+            <div class="col-md-8 col-lg-8">
+              <p-button label="Save" (onClick)="saveData($event)"></p-button>
+              
+            </div>
+            </div>
+
+          </div>
+          <div class="col-6">
+
+            <app-previous-transaction-details [id] = "currentId" (retrieveDone) =" resetData($event)" [updateTransaction] ="updateTransaction"></app-previous-transaction-details>
+          </div>
+        </div>

@@ -1,0 +1,448 @@
+{
+  "bills": [
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2017-10-08T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "3",
+        "value": 3
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "9442168088",
+      "addressLine1": "test",
+      "addressLine2": "test",
+      "city": "test",
+      "state": "test",
+      "pin": "test",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "MRI BRAIN",
+        "scanAmount": 170,
+        "discount": 10,
+        "totalAmount": 0,
+        "modality": "MRI"
+      },
+      "id": 1,
+      "previousTransactions": [
+        {
+          "id": 1,
+          "amount": 30,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T12:48:17.462Z"
+        },
+        {
+          "id": 2,
+          "amount": 40,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T12:54:37.280Z"
+        },
+        {
+          "id": 3,
+          "amount": 90,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T12:58:35.309Z"
+        }
+      ]
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2017-10-08T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "3",
+        "value": 3
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "9442168088",
+      "addressLine1": "test",
+      "addressLine2": "test",
+      "city": "test",
+      "state": "test",
+      "pin": "test",
+      "country": "United States",
+      "billingData": {
+        "sno": 2,
+        "scanName": "CT BRAIN",
+        "scanAmount": 200,
+        "discount": 10,
+        "totalAmount": 0,
+        "modality": "CT"
+      },
+      "id": 2,
+      "previousTransactions": [
+        {
+          "id": 1,
+          "amount": "5",
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T10:40:47.064Z"
+        },
+        {
+          "id": 2,
+          "amount": "5",
+          "paymentDate": "2020-10-26T10:41:05.895Z"
+        },
+        {
+          "id": 3,
+          "amount": 88,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T10:52:07.139Z"
+        }
+      ]
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2017-12-03T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "3",
+        "value": 3
+      },
+      "appointmentDate": "2020-10-28T18:30:00.000Z",
+      "phoneNumber": "8148637657",
+      "addressLine1": "rets",
+      "addressLine2": "tst",
+      "city": "test",
+      "state": "test",
+      "pin": "ttes",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "MRI BRAIN",
+        "scanAmount": 170,
+        "discount": 10,
+        "totalAmount": 160,
+        "modality": "MRI"
+      },
+      "id": 3
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2017-11-13T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "3",
+        "value": 3
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "8148637657",
+      "addressLine1": "test",
+      "addressLine2": "test",
+      "city": "test",
+      "state": "test",
+      "pin": "test",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "CT BRAIN",
+        "scanAmount": 200,
+        "discount": 10,
+        "totalAmount": 150,
+        "modality": "CT"
+      },
+      "id": 4,
+      "previousTransactions": [
+        {
+          "id": 1,
+          "amount": 40,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:13:57.466Z"
+        }
+      ]
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2018-04-15T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "2",
+        "value": 2
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "8148627657",
+      "addressLine1": "test",
+      "addressLine2": "tst",
+      "city": "test",
+      "state": "test",
+      "pin": "test",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "MRI BRAIN",
+        "scanAmount": 170,
+        "discount": 10,
+        "totalAmount": 160,
+        "modality": "MRI"
+      },
+      "id": 5
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manjula",
+      "gender": "female",
+      "dob": "2019-05-19T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "1",
+        "value": 1
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "8148637657",
+      "addressLine1": "test",
+      "addressLine2": "test",
+      "city": "test",
+      "state": "teste",
+      "pin": "test",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "MRI BRAIN",
+        "scanAmount": 170,
+        "discount": 50,
+        "totalAmount": 120,
+        "modality": "MRI"
+      },
+      "id": 6
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2018-07-09T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "2",
+        "value": 2
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "8148637657",
+      "addressLine1": "tet",
+      "addressLine2": "tst",
+      "city": "test",
+      "state": "test",
+      "pin": "test",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "MRI BRAIN",
+        "scanAmount": 170,
+        "discount": 20,
+        "totalAmount": 50,
+        "modality": "MRI"
+      },
+      "id": 7,
+      "previousTransactions": [
+        {
+          "id": 1,
+          "amount": 50,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:05:15.090Z"
+        },
+        {
+          "id": 2,
+          "amount": 50,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:05:21.836Z"
+        }
+      ]
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2019-03-04T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "1",
+        "value": 1
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "8148637657",
+      "addressLine1": "twste",
+      "addressLine2": "test",
+      "city": "test",
+      "state": "test",
+      "pin": "test",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "CT BRAIN",
+        "scanAmount": 200,
+        "discount": 5,
+        "totalAmount": 0,
+        "modality": "CT"
+      },
+      "id": 8,
+      "previousTransactions": [
+        {
+          "id": 1,
+          "amount": 30,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:00:40.154Z"
+        },
+        {
+          "id": 2,
+          "amount": 90,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:00:50.166Z"
+        },
+        {
+          "id": 3,
+          "amount": 75,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:01:24.493Z"
+        }
+      ]
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2018-08-12T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "2",
+        "value": 2
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "8148637657",
+      "addressLine1": "test",
+      "addressLine2": "test",
+      "city": "etst",
+      "state": "test",
+      "pin": "ets",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "CT BRAIN",
+        "scanAmount": 200,
+        "discount": 10,
+        "totalAmount": 90,
+        "modality": "CT"
+      },
+      "id": 9,
+      "previousTransactions": [
+        {
+          "id": 1,
+          "amount": 50,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:07:30.117Z"
+        },
+        {
+          "id": 2,
+          "amount": 50,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:08:05.198Z"
+        }
+      ]
+    },
+    {
+      "salutation": "mrs",
+      "name": "manju",
+      "gender": "female",
+      "dob": "2018-05-13T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "2",
+        "value": 2
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "8148637657",
+      "addressLine1": "test",
+      "addressLine2": "test",
+      "city": "test",
+      "state": "test",
+      "pin": "tst",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "CT BRAIN",
+        "scanAmount": 200,
+        "discount": 10,
+        "totalAmount": 110,
+        "modality": "CT"
+      },
+      "id": 10,
+      "previousTransactions": [
+        {
+          "id": 1,
+          "amount": 30,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:09:26.332Z"
+        },
+        {
+          "id": 2,
+          "amount": 50,
+          "paymentMode": "card",
+          "paymentDate": "2020-10-26T13:11:07.841Z"
+        }
+      ]
+    },
+    {
+      "salutation": "mrs",
+      "name": "Manju",
+      "gender": "female",
+      "dob": "2018-09-08T18:30:00.000Z",
+      "ageType": "Child",
+      "age": {
+        "label": "2",
+        "value": 2
+      },
+      "appointmentDate": "2020-10-29T18:30:00.000Z",
+      "phoneNumber": "9442168077",
+      "addressLine1": "teste",
+      "addressLine2": "test",
+      "city": "test",
+      "state": "test",
+      "pin": "test",
+      "country": "United States",
+      "billingData": {
+        "sno": 1,
+        "scanName": "CT BRAIN",
+        "scanAmount": 200,
+        "discount": 10,
+        "totalAmount": 0,
+        "modality": "CT"
+      },
+      "id": 11,
+      "previousTransactions": [
+        {
+          "id": 1,
+          "amount": 40,
+          "paymentDate": "2020-10-26T13:17:13.099Z"
+        },
+        {
+          "id": 2,
+          "amount": 43,
+          "paymentDate": "2020-10-26T13:17:19.671Z"
+        },
+        {
+          "id": 3,
+          "amount": 107,
+          "paymentDate": "2020-10-26T13:17:33.693Z"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

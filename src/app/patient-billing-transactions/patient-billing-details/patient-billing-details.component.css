@@ -1,0 +1,7 @@
+.header
+  {
+    color: skyblue;
+  }
+  hr.border {
+    border: 0.5px solid skyblue !important;
+  }

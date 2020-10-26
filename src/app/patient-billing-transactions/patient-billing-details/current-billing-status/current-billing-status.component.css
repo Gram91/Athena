@@ -1,0 +1,35 @@
+p-dropdown > div {
+    border: 1px solid black !important;
+    width: 4rem;
+  }
+
+  p-dropdown.ng-invalid.ng-touched.ui-inputwrapper-focus:not(form) > div {
+    box-shadow: 0 0 0 0.05em #F40000;
+    border: 1px solid #D40000;
+    border-radius: 2px;
+  }
+
+  p-dropdown.ng-invalid.ng-untouched.ui-inputwrapper-focus:not(form) > div {
+    box-shadow: 0 0 0 0.05em #F40000;
+    border: 1px solid #D40000;
+    border-radius: 2px;
+  }
+
+
+
+  .widthControl
+  {
+    border: 1px solid black !important;
+    width: 3rem !important;
+  }
+  .inputAlignment{
+    min-width: 415px !important;
+  }
+  .calendarWidth
+  {
+    width:100px !important;
+  }
+  .cvvlength
+  {
+      max-width:60px !important;
+  }

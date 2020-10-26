@@ -1,0 +1,80 @@
+<p [ngClass]="'header'"> View Appointment </p>
+
+<hr class="border"/>
+<br/>
+
+<div class ="row">
+
+  
+  
+    <div class="col">
+      <label>From Date</label>
+      <p-calendar [(ngModel)]="fromDate" [showIcon]="true" inputstyleClass="calendarWidth"></p-calendar>
+  </div>
+  <!-- <div class="col-md-2 col-lg-2"></div> -->
+  <div class="col">
+    <label>To Date</label>
+    <p-calendar [(ngModel)]="toDate" [showIcon]="true" inputstyleClass="calendarWidth"></p-calendar>
+</div>
+
+<div class = "col">
+  <div class = "row">
+    <div class = "col-4"> <label>Status</label></div>
+    <div class="col-8"><p-dropdown  styleClass="widthControl" [options]="status" [(ngModel)] = "selectedStatus"> </p-dropdown></div>
+  </div>
+ 
+  
+</div>
+
+<div class = "col-3">
+  <div class="row">
+    <div class="col-5">
+  <label>Common search</label>
+</div>
+<div class="col-7">
+  <div class="input-icons"> 
+    <i class="fa fa-search icon"></i> 
+    <input type="text" pInputText [(ngModel)]="searchPattern" class="input-field"/>
+  </div>
+</div>
+</div> 
+ 
+</div>
+
+<div class = "col-1">
+  <p-button label="Search" (onClick)="searchData($event)"></p-button>
+ 
+</div>
+  
+</div>
+<br/>
+<div class="container">
+  
+  
+  <table class="table table-bordered">
+    <thead class="table-primary">
+        <tr>
+          <th>sno</th>
+          <th>Patient Name</th>
+          <th>Age-Gender</th>
+          <th>Appointment Date</th>
+          <th>Balance Amount</th>
+          <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let bill of appointmentData">
+        <td>{{ bill.id }}</td>
+        <td>{{ bill.name }}</td>
+        <td>{{ bill.gender }}</td>
+        <td>{{ bill.appointmentDate }}</td>
+        <td>{{ bill.billingData.totalAmount }}</td>
+        <td><span class="anchor" (click)="routeTransaction(bill)"> Click to Pay</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br/>
+
+<app-current-billing-status *ngIf="showTransactionData" [id]="selectedId"></app-current-billing-status>
